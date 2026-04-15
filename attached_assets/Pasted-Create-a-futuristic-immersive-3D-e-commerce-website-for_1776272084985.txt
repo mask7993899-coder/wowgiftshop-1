@@ -1,0 +1,247 @@
+Create a futuristic, immersive 3D e-commerce website for a customized gift shop called "WOW Gift (All Customized Gifts)".
+
+🎯 GOAL:
+Combine emotional storytelling + interactive 3D visuals + seamless online shopping experience.
+
+Users should be able to:
+
+* Explore products in 3D
+* Customize gifts in real-time
+* Add to cart
+* Checkout easily (mobile-friendly)
+
+---
+
+🌌 CORE CONCEPT:
+"A 3D Gift Universe with Shopping Power"
+
+Users enter a magical world where each product is interactive AND purchasable instantly.
+
+---
+
+🎨 DESIGN STYLE:
+
+* Romantic + premium 3D look
+* Soft neon glow (pink, purple, gold)
+* Floating gift elements
+* Glassmorphism UI panels for e-commerce sections
+
+---
+
+🧩 FULL WEBSITE STRUCTURE:
+
+---
+
+🏠 1. HERO SECTION (3D ENTRY + SHOP CTA)
+
+* 3D floating gifts and glowing heart portal
+* Headline:
+  "Turn Your Memories Into Beautiful Gifts"
+* CTA Buttons:
+
+  * "Shop Now"
+  * "Customize Your Gift"
+
+🛒 Quick cart icon (top-right, animated bounce)
+
+---
+
+🛍️ 2. 3D PRODUCT SHOP (MAIN E-COMMERCE AREA)
+
+Display products as:
+
+* Floating 3D cards / objects
+
+Categories:
+
+* Photo Frames
+* Customized Mugs
+* LED Frames
+* Couple Gifts
+* Birthday Gifts
+
+Each product card includes:
+
+* 3D rotating preview
+* Price (₹)
+* "Customize" button
+* "Add to Cart" button
+
+✨ Interaction:
+
+* Hover → glow + zoom
+* Click → opens product page
+
+---
+
+🧾 3. PRODUCT DETAIL PAGE (3D + BUY FLOW)
+
+When clicked:
+
+* Full 3D product preview (rotate, zoom)
+* Upload photo feature
+* Add custom text
+* Select size/variant
+* Live preview updates
+
+🛒 Buttons:
+
+* "Add to Cart"
+* "Buy Now"
+
+---
+
+🛒 4. SHOPPING CART SYSTEM
+
+* Slide-in cart panel (right side)
+
+* Show:
+
+  * Product image
+  * Name
+  * Customization preview
+  * Price
+  * Quantity selector
+
+* Total price calculation
+
+* Buttons:
+
+  * "Checkout"
+  * "Continue Shopping"
+
+---
+
+💳 5. CHECKOUT SYSTEM
+
+Simple and fast checkout:
+
+Fields:
+
+* Name
+* Phone Number
+* Address
+* Pincode
+
+Options:
+
+* Cash on Delivery (COD)
+* UPI Payment (PhonePe / Google Pay / Paytm)
+
+Order summary:
+
+* Items + total cost
+
+CTA:
+"Place Order"
+
+---
+
+📦 6. ORDER CONFIRMATION
+
+* Success animation (confetti + glowing gift)
+* Message:
+  "Your Gift is Being Prepared with Love ❤️"
+* Order ID displayed
+
+---
+
+🎨 7. 3D CUSTOMIZATION LAB
+
+* Drag & drop image upload
+* Live 3D preview
+* Text editor with fonts/colors
+* Save design before adding to cart
+
+---
+
+⭐ 8. REVIEWS SECTION
+
+* Customer reviews with:
+
+  * Stars ⭐
+  * Photos (optional)
+* Highlight:
+  "4.8★ Rated by Happy Customers"
+
+---
+
+💖 9. WHY CHOOSE US (TRUST SECTION)
+
+* Affordable Pricing 💰
+* Premium Quality ⭐
+* Fast Local Delivery 🚀
+* Fully Customized Gifts 🎨
+* Trusted Store ❤️
+
+---
+
+📍 10. CONTACT + STORE INFO
+
+* Address:
+  Ravinder Nagar Colony, Nalgonda
+* Phone:
+  08919848394
+* WhatsApp Chat Button (floating)
+* Google Map embed
+
+---
+
+⚙️ BACKEND FEATURES (IMPORTANT):
+
+* Product management dashboard
+* Order tracking system
+* Customer database
+* Admin panel to:
+
+  * Add/edit products
+  * View orders
+  * Update status
+
+---
+
+💻 TECH STACK:
+
+Frontend:
+
+* React.js
+* Three.js / React Three Fiber
+* Tailwind CSS
+
+Backend:
+
+* Node.js + Express
+* MongoDB / Firebase
+
+Payments:
+
+* Razorpay / UPI integration
+
+---
+
+📱 MOBILE OPTIMIZATION:
+
+* Fast loading (low-poly 3D)
+* Tap to interact
+* Sticky "Buy Now" button
+
+---
+
+✨ MICRO INTERACTIONS:
+
+* Add to cart → flying product animation
+* Checkout → smooth transition
+* Hover → glow + shadow
+* Buttons → soft bounce
+
+---
+
+🔥 FINAL EXPERIENCE:
+
+User journey:
+See → Feel → Customize → Buy → Smile
+
+---
+
+🎯 TAGLINE:
+"Create. Customize. Celebrate."

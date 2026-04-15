@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "WOW Gift Shop"
+version = "1.0.0"
+id = "artifacts/wow-gift"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26020
+
+[services.development]
+run = "pnpm --filter @workspace/wow-gift run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wow-gift", "run", "build" ]
+publicDir = "artifacts/wow-gift/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26020"
+BASE_PATH = "/"

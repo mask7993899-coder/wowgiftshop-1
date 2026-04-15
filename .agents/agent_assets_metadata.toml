@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "WTD4qjndXcv6ezAb00uC1"
+uri = "file://artifacts/wow-gift/src/assets/images/hero-bg.png"
+type = "image"
+title = "Romantic glowing gift shop portal"
+
+[[generated]]
+id = "0UPmSu9HtXoyJAw3aNQFp"
+uri = "file://artifacts/wow-gift/src/assets/images/product-frame.png"
+type = "image"
+title = "Customized 3D photo frame"
+
+[[generated]]
+id = "oBzzfgGaOWWS0tQs4ncms"
+uri = "file://artifacts/wow-gift/src/assets/images/product-mug.png"
+type = "image"
+title = "Customized glowing mug"
+
+[[generated]]
+id = "fK-fHzQq0o-Io3tqdMQnN"
+uri = "file://artifacts/wow-gift/src/assets/images/product-led.png"
+type = "image"
+title = "Customized LED lamp"
+
+[[generated]]
+id = "Q_vrtdTkEmo2CN1RBXa9n"
+uri = "file://artifacts/wow-gift/src/assets/images/product-couple.png"
+type = "image"
+title = "Romantic couple gift"
