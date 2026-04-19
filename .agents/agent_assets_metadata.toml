@@ -30,3 +30,57 @@ id = "Q_vrtdTkEmo2CN1RBXa9n"
 uri = "file://artifacts/wow-gift/src/assets/images/product-couple.png"
 type = "image"
 title = "Romantic couple gift"
+
+[[generated]]
+id = "xIyimVW_F6O38Z2wKlK7J"
+uri = "file://artifacts/wow-gift/public/images/hero-bg.png"
+type = "image"
+title = "hero background"
+
+[[generated]]
+id = "WDZCvWLWG6yOi7P4Ql06-"
+uri = "file://artifacts/wow-gift/public/images/product-1.png"
+type = "image"
+title = "wooden photo frame"
+
+[[generated]]
+id = "NWU9UtJFcfs36buk43b4k"
+uri = "file://artifacts/wow-gift/public/images/product-2.png"
+type = "image"
+title = "LED heart frame"
+
+[[generated]]
+id = "m_3W1v7LNtGDnQsBtAerH"
+uri = "file://artifacts/wow-gift/public/images/product-3.png"
+type = "image"
+title = "custom photo mug"
+
+[[generated]]
+id = "kfhsbrYByJuK6n4LAma82"
+uri = "file://artifacts/wow-gift/public/images/product-4.png"
+type = "image"
+title = "couple name cushion"
+
+[[generated]]
+id = "HJkXrkBsQgt9QV5jtiuwG"
+uri = "file://artifacts/wow-gift/public/images/product-5.png"
+type = "image"
+title = "birthday collage frame"
+
+[[generated]]
+id = "NBcBIXWqmMZoekpUJSNvd"
+uri = "file://artifacts/wow-gift/public/images/product-6.png"
+type = "image"
+title = "magic color changing mug"
+
+[[generated]]
+id = "KpKlVd__Zj28QZaxGr4SK"
+uri = "file://artifacts/wow-gift/public/images/product-7.png"
+type = "image"
+title = "3D moon lamp"
+
+[[generated]]
+id = "8hFUsWuduIbCCl0xrbVDn"
+uri = "file://artifacts/wow-gift/public/images/product-8.png"
+type = "image"
+title = "rotating photo cube"

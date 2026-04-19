@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useCart } from "@/lib/cart";
 import { useToast } from "@/hooks/use-toast";
-import frameImg from "@/assets/images/product-frame.png";
+const frameImg = "/images/product-1.png";
 
 export default function Shop() {
   const [search, setSearch] = useState("");

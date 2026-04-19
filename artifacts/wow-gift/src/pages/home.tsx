@@ -3,11 +3,11 @@ import { Link } from "wouter";
 import { ArrowRight, Sparkles, Star, ShieldCheck, HeartHandshake, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import heroBg from "@/assets/images/hero-bg.png";
-import frameImg from "@/assets/images/product-frame.png";
-import mugImg from "@/assets/images/product-mug.png";
-import ledImg from "@/assets/images/product-led.png";
-import coupleImg from "@/assets/images/product-couple.png";
+const heroBg = "/images/hero-bg.png";
+const frameImg = "/images/product-1.png";
+const mugImg = "/images/product-3.png";
+const ledImg = "/images/product-2.png";
+const coupleImg = "/images/product-4.png";
 
 export default function Home() {
   const { data: featuredProducts, isLoading: productsLoading } = useListProducts({ featured: true });
@@ -18,6 +18,7 @@ export default function Home() {
     'mugs': mugImg,
     'led-lamps': ledImg,
     'couple-gifts': coupleImg,
+    'birthday-gifts': "/images/product-5.png",
   };
 
   return (
@@ -28,9 +29,9 @@ export default function Home() {
           <img 
             src={heroBg} 
             alt="Magical gift universe" 
-            className="w-full h-full object-cover opacity-60 mix-blend-screen"
+            className="w-full h-full object-cover opacity-75"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20" />
         </div>
         
         <div className="container relative z-10 px-4 flex flex-col items-center text-center">
@@ -63,8 +64,8 @@ export default function Home() {
         </div>
 
         {/* Floating elements */}
-        <img src={frameImg} alt="" className="absolute top-1/4 left-[10%] w-32 h-32 object-cover rounded-xl border border-primary/30 shadow-lg floating hidden lg:block opacity-60 mix-blend-screen blur-[1px]" />
-        <img src={mugImg} alt="" className="absolute bottom-1/4 right-[10%] w-40 h-40 object-cover rounded-full border border-secondary/30 shadow-lg floating-delayed hidden lg:block opacity-60 mix-blend-screen blur-[1px]" />
+        <img src={frameImg} alt="" className="absolute top-1/4 left-[10%] w-32 h-40 object-cover rounded-xl border border-primary/40 shadow-[0_0_30px_rgba(219,39,119,0.4)] floating hidden lg:block opacity-70" />
+        <img src={mugImg} alt="" className="absolute bottom-1/4 right-[10%] w-36 h-44 object-cover rounded-xl border border-secondary/40 shadow-[0_0_30px_rgba(147,51,234,0.4)] floating-delayed hidden lg:block opacity-70" />
       </section>
 
       {/* Categories Section */}
