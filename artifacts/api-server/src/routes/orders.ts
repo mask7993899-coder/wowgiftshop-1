@@ -48,10 +48,14 @@ router.get("/orders", async (req, res): Promise<void> => {
     conditions.push(eq(ordersTable.status, query.data.status));
   }
 
+  if (query.success && query.data.phone) {
+    conditions.push(eq(ordersTable.customerPhone, query.data.phone));
+  }
+
   const orders = await db
     .select()
     .from(ordersTable)
-    .where(conditions.length > 0 ? conditions[0] : undefined)
+    .where(conditions.length > 1 ? conditions[0] : conditions.length === 1 ? conditions[0] : undefined)
     .orderBy(desc(ordersTable.createdAt));
 
   const result = await Promise.all(

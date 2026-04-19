@@ -174,6 +174,7 @@ export const ListOrdersQueryParams = zod.object({
   status: zod
     .enum(["pending", "confirmed", "shipped", "delivered", "cancelled"])
     .optional(),
+  phone: zod.string().optional(),
 });
 
 export const ListOrdersResponseItem = zod.object({

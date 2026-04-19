@@ -15,6 +15,7 @@ import ProductDetail from "@/pages/product";
 import Cart from "@/pages/cart";
 import Checkout from "@/pages/checkout";
 import OrderConfirmation from "@/pages/order-confirmation";
+import OrderTracking from "@/pages/order-tracking";
 import CustomizeLab from "@/pages/customize";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
@@ -42,6 +43,7 @@ function Router() {
       <Route path="/cart" component={Cart} />
       <Route path="/checkout" component={Checkout} />
       <Route path="/order-confirmation/:id" component={OrderConfirmation} />
+      <Route path="/track-order" component={OrderTracking} />
       <Route path="/customize" component={CustomizeLab} />
       <Route path="/admin" component={Admin} />
       <Route component={NotFound} />
