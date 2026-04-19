@@ -1,6 +1,6 @@
 import { Router, type IRouter } from "express";
 import { eq, desc } from "drizzle-orm";
-import { db, ordersTable, orderItemsTable } from "@workspace/db";
+import { db, ordersTable, orderItemsTable, productsTable } from "@workspace/db";
 import {
   ListOrdersQueryParams,
   CreateOrderBody,
@@ -93,6 +93,13 @@ router.post("/orders", async (req, res): Promise<void> => {
 
   const totalAmount = parsed.data.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
+  const productIds = parsed.data.items.map((i) => i.productId);
+  const productNameMap: Record<number, string> = {};
+  for (const pid of productIds) {
+    const [p] = await db.select({ id: productsTable.id, name: productsTable.name }).from(productsTable).where(eq(productsTable.id, pid));
+    if (p) productNameMap[p.id] = p.name;
+  }
+
   const [order] = await db.insert(ordersTable).values({
     customerName: parsed.data.customerName,
     customerPhone: parsed.data.customerPhone,
@@ -107,7 +114,7 @@ router.post("/orders", async (req, res): Promise<void> => {
     parsed.data.items.map((item) => ({
       orderId: order.id,
       productId: item.productId,
-      productName: (item as any).productName || `Product ${item.productId}`,
+      productName: productNameMap[item.productId] || `Product ${item.productId}`,
       quantity: item.quantity,
       price: String(item.price),
       customText: item.customText,
